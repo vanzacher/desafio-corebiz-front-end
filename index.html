@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet"> -->
+    <title>Corebiz</title>
+</head>
+
+<!-- Cabeçalho -->
+<header class="container-header">
+    <div class="logo-header">
+        <img src="./assets/logo-header.svg" alt="Logo Corebiz" />
+    </div>
+    <div class="busca">
+        <input type="text" placeholder="O que está procurando?" id="lupa" />
+    </div>
+</header>
+
+<!-- Conteúdo principal -->
+
+<body>
+    <section>
+        <div class="texto-banner">
+            <p>
+                Olá, o que você está buscando?
+            <h1>Criar ou migrar seu e-commerce?</h1>
+            </p>
+        </div>
+        <div class="banner">
+            <img src="./assets/banner-home.svg" alt="Banner da Home" />
+        </div>
+
+    </section>
+    <!-- Slider de produtos -->
+    <section>
+        <div class="listaProdutos" id="app">
+            <script src="./scriptGet.js"></script>
+        </div>
+    </section>
+    <!-- Newsletter -->
+    <section>
+        <div class="leads" id="">
+            <p class="texto-leads">Participe de nossas news com promoções e novidades!</p>
+            <div class="news">
+
+                <script src="./scriptPost.js"></script>
+                <form onsubmit="cadastraUsuario()">
+                    <input type="text" id="nome" placeholder="Digite seu nome" />
+                    <input type="email" id="email" placeholder="Digite seu email" />
+                    <button type="submit" id="submit-button">Eu quero!</button>
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+</body>
+
+<!-- Rodapé -->
+<footer>
+    <div class="container-footer">
+        <p>aqui vai o footer</p>
+    </div>
+</footer>
+
+</html>
