@@ -4,16 +4,16 @@ O desafio consiste em replicar uma página padrão de e-commerce, consumindo uma
 
 ## Tecnologias 
 
--HTML 
--CSS 
--Javascript 
+ - HTML
+ - CSS
+ - JavaScript
 
 ## Executando 
 
 1 - Clone este projeto 
-$ git clone https://github.com/vanzacher/desafio-corebiz-front-end 
+`$ git clone https://github.com/vanzacher/desafio-corebiz-front-end`
 
-2 - Entre na pasta e abra o arquivo index.html ou arraste para seu navegador. 
+2 - Entre na pasta e abra o arquivo `index.html` ou arraste para seu navegador. 
 
 ## Observações 
 
