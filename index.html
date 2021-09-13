@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./styles.css">
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet"> -->
     <title>Corebiz</title>
 </head>
 
@@ -21,13 +23,12 @@
 </header>
 
 <!-- Conteúdo principal -->
-
 <body>
     <section>
         <div class="texto-banner">
             <p>
                 Olá, o que você está buscando?
-            <h1>Criar ou migrar seu e-commerce?</h1>
+            <h1>Criar ou migrar seu <br> e-commerce?</h1>
             </p>
         </div>
         <div class="banner">
@@ -35,12 +36,14 @@
         </div>
 
     </section>
+
     <!-- Slider de produtos -->
     <section>
         <div class="listaProdutos" id="app">
             <script src="./scriptGet.js"></script>
         </div>
     </section>
+
     <!-- Newsletter -->
     <section>
         <div class="leads" id="">
@@ -63,7 +66,40 @@
 <!-- Rodapé -->
 <footer>
     <div class="container-footer">
-        <p>aqui vai o footer</p>
+        <div class="titulo-footer">
+            <P>
+                <h2>
+                    Localização
+                </h2>
+                </P>
+        </div>
+        <div class="texto-footer">
+            <div class="line"></div>
+            <p>
+                Avenida Andrômeda, 2000. Bloco 6 e 8
+                <br>
+                Alphavile SP
+                <br>
+                brasil@corebiz.ag
+                <br>
+                +55 11 3090 1039
+
+            </p>
+        </div>
+        <!-- Botões do footer -->
+        <div>
+            <a href="mailto:brasil@corebiz.ag" target="_blank"><button class="email-button">ENTRE EM CONTATO</button></a>
+            <a href="https://api.whatsapp.com/send?phone=5511030901039&text=Ol%C3%A1%2C%20seja%20bem%20vindo!" target="_blank"><button class="chat-button">FALE COM O NOSSO <br> CONSULTOR ONLINE</button></a>
+        </div>
+        <div class="logo-footer-corebiz">
+            <p class="texto-corebiz-footer">Created by</p>
+            <img src="./assets/footer-corebiz.svg" alt="Logo Corebiz Rodapé" />
+        </div>
+        <div class="logo-footer-vtex">
+            <p class="texto-vtex-footer">Powered by</p>
+            <img src="./assets/footer-vtex.svg" alt="Logo VTEX Rodapé" />
+        </div>
+
     </div>
 </footer>
 
